@@ -67,7 +67,7 @@ class PluginScanCodePlugin : FlutterPlugin, ActivityAware, MethodCallHandler, Pl
      * 描述：
      */
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-        if (call.method == "gotoScan") {
+        if (call.method == "gotoScanCode") {
             this.result = result
             if (binding != null) {
                 ARouter.getInstance()

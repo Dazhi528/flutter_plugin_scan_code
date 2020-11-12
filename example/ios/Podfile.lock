@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - plugin_scan_code (0.0.1):
+    - Flutter
+    - ScanCode
+  - ScanCode (1.0.3)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - plugin_scan_code (from `.symlinks/plugins/plugin_scan_code/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ScanCode
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  plugin_scan_code:
+    :path: ".symlinks/plugins/plugin_scan_code/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  plugin_scan_code: 3f980560f1e5115988a2d0645a5d1e4fe72e5f99
+  ScanCode: 2b7163cc11cc04594be6cc3e91d0da21fe0adfda
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.10.0
