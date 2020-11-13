@@ -1,15 +1,28 @@
 # plugin_scan_code
 
-Flutter plugin scan code
+Flutter plugin scan qrcode and barcode(Android and Ios)
+可在Android和Ios双系统下使用的扫描二维码和一维码的Flutter插件库
 
-## Getting Started
+## 引库
+dependencies:
+    plugin_scan_code: 
+  		git: https://github.com/Dazhi528/flutter_plugin_scan_code.git
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## 调用方式
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+  import 'package:plugin_scan_code/plugin_scan_code.dart';
 
+  // 去扫码
+  _gotoScanCode() async {
+    String scanCodeRet;
+    try {
+      scanCodeRet = await PluginScanCode.scanCodeResult;
+    } on PlatformException {
+      scanCodeRet = 'Failed to get scan code result.';
+    }
+    setState(() {
+      _code = scanCodeRet;
+    });
+  }
+```
