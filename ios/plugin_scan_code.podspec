@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'plugin_scan_code'
-  s.version          = '0.0.1'
+  s.version          = '1.0.1'
   s.summary          = 'Flutter plugin scan code'
   s.description      = <<-DESC
 Flutter plugin scan qrcode and barcode From Android and Ios
@@ -14,8 +14,14 @@ Flutter plugin scan qrcode and barcode From Android and Ios
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Dazhi528' => 'wzz528@icloud.com' }
   s.source           = { :path => '.' }
-  s.source           = { :git => 'https://github.com/Dazhi528/ScanCode.git', :tag => '1.0.4' }
+  s.source           = { :git => 'https://github.com/Dazhi528/ScanCode.git' }
   s.source_files = 'Classes/**/*'
+  
+#  s.resource_bundles = {
+#      'plugin_scan_code' => ['Assets/**/*']
+#  }
+  s.resources = ['Assets/**/*']
+
   s.dependency 'Flutter'
   s.dependency 'ScanCode'
   s.platform = :ios, '10.0'

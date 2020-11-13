@@ -1,9 +1,9 @@
 PODS:
   - Flutter (1.0.0)
-  - plugin_scan_code (0.0.1):
+  - plugin_scan_code (1.0.1):
     - Flutter
     - ScanCode
-  - ScanCode (1.0.3)
+  - ScanCode (1.0.7)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  plugin_scan_code: 3f980560f1e5115988a2d0645a5d1e4fe72e5f99
-  ScanCode: 2b7163cc11cc04594be6cc3e91d0da21fe0adfda
+  plugin_scan_code: 88f95113fcbffd5e9c16dc1b3d9733fd087ede5b
+  ScanCode: 127d74f2ce6be5e6dd80d46d995e60aadd1f79fc
 
 PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
 

@@ -15,7 +15,6 @@ public class SwiftPluginScanCodePlugin: NSObject, FlutterPlugin {
             if #available(iOS 13.0, *) {
                 mScanViewController.modalPresentationStyle = .fullScreen
             }
-            weak var weakSelf = self
             mScanViewController.mScanBlockCallback = {
                 (scanCodeResult:String) in
                 result(scanCodeResult)

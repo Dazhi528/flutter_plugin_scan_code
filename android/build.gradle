@@ -48,6 +48,6 @@ android {
 dependencies {
     //noinspection GradleDependency
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.github.Dazhi528:ZxingScan:1.0.3'
+    implementation 'com.github.Dazhi528:ZxingScan:1.0.4'
     kapt 'com.alibaba:arouter-compiler:1.2.2'
 }
