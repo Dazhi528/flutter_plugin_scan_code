@@ -27,7 +27,6 @@ class PluginScanCodePlugin : FlutterPlugin, ActivityAware, MethodCallHandler, Pl
      * 描述：
      */
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        RtCmn.initApp(flutterPluginBinding.applicationContext, false)
         channel = MethodChannel(flutterPluginBinding.binaryMessenger, "plugin_scan_code")
         channel.setMethodCallHandler(this)
     }
